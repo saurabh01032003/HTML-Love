@@ -1,0 +1,64 @@
+
+<!-- Always keep in mind ek code me sirf ek hi "h1" tag ho ,h2,h3... jada ho sakte hai -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture 03</title>
+    <style>
+      table, tr,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* To make all text at center of Table */
+        text-align: center;
+        /* To show caption at bottom of the table */
+        caption-side: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+        
+        <colgroup>
+            <!-- background color of column remains as it is(default) -->
+            <col span="1" >
+            <!-- To give background color of a column -->
+            <col span="2" style="background-color: green;">
+            <col span="1" style="background-color: yellow;">
+        </colgroup>
+        <caption>Class Work table by Love Babbar</caption>
+    <tr>
+        <!-- rowspan="2" cell will expend 2 units down in row -->
+        <!-- colspan="2" cell will expend 2 units down in column -->
+      <td rowspan="2">State of Health</td>
+      <td colspan="2">Fasting Value</td>
+      <td>After Eating</td>
+    </tr>
+    <tr>
+      <td>Minimum</td>
+      <td>Maximum</td>
+      <td>2 hours after eating</td>
+    </tr>
+    <tr>
+      <td>Healthy</td>
+      <td>70</td>
+      <td>100</td>
+      <td>less than 140</td>
+    </tr>
+    <tr>
+      <td>Pre-Diabetese</td>
+      <td>101</td>
+      <td>126</td>
+      <td>140 to 200</td>
+    </tr>
+    <tr>
+      <td>Diabetes</td>
+      <td>More than 126</td>
+      <td>N/A</td>
+      <td>More than 200</td>
+    </tr>
+</table>
+  </body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td rowspan="2">
+          <img src="cb icon.jpg" alt="Insert Image" width="200" height="100" />
+        </td>
+        <td rowspan="2">
+          <h1>
+            <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+            &nbsp;&nbsp;&nbsp;<u>Student Application Form</u>&nbsp;&nbsp;&nbsp;
+          </h1>
+        </td>
+        <td>
+    
+          <input type="radio" id="enquire" name="SameName" />
+          <label for="enguire">Enquiry</label>
+          <br>
+
+          <input type="radio" id="enroll" name="SameName" />
+          <label for="enroll">Enrolled</label></td>
+      </tr>
+      
+  
+    </table>
+    <!-- For Spacing below line -->
+    <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+
+    <form action="#">
+
+      
+      <!-- <fieldset> -->
+      <!-- <legend> : fieldset ke andar ki cheezon ko Heading provide karega -->
+
+      <!-- </legend> -->
+      <table>
+        <tr>
+          <td>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="fname"
+              placeholder="Enter your name"
+            />
+          </td>
+          <td>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="fname" />
+          </td>
+        </tr>
+
+        <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+        <tr>
+          <td>
+            <label for="contact">Contact Number</label>
+            <input type="number" name="contact" id="number" />
+          </td>
+          <td>
+            <label for="watsapp">WhatsApp No.</label>
+            <input
+              type="number"
+              name="watsapp"
+              id="fname"
+              min="1000000000"
+              max="999999999"
+            />
+          </td>
+
+          <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+        </tr>
+
+        <!-- <br /> -->
+
+        <tr>
+          <td>
+            <label for="mail">Email ID</label>
+            <input
+              type="email"
+              name="mail"
+              id="fname"
+              placeholder="Enter your mail id"
+            />
+          </td>
+          <td>
+            <label for="address"> Address </label
+            ><input type="text" name="address" id="fname" /> <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City</label>
+            <input type="text" name="city" id="fname" />
+          </td>
+          <td>
+            <label for="state">State</label>
+            <input type="text" name="state" id="fname" />
+          </td>
+          <td>
+            <label for="pin">Pin Code</label>
+            <input type="number" name="pin" id="fname" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Gname">Guardian Name</label>
+            <input type="text" name="Gname" id="fname" />
+          </td>
+          <td>
+            <label for="Gnum">Guardian's Contact Number</label>
+            <input type="number" name="Gnum" id="fname" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="college">College</label>
+            <input type="text" name="college" id="fname" />
+          </td>
+          <td>
+            <label for="univ">University</label>
+            <input type="text" name="univ" id="fname" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="branch">Branch</label>
+            <input type="text" name="branch" id="fname" />
+          </td>
+          <td>
+            <label for="gradYear">College Graduation Year</label>
+            <input type="date" name="gradYear" id="fname" />
+          </td>
+        </tr>
+      </table>
+
+      <table>
+        <p><b>Course Interested In (Please tick the appropriate one)</b></p>
+        <tr>
+          <td>
+            <input type="checkbox" name="class" />
+            <label for="class">Launchpad(DSA using C++)</label>
+          </td>
+          <td>
+            <input type="checkbox" name="crux" />
+            <label for="crux">Crux(DSA using Java)</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="samp" />
+            <label for="samp"
+              >Sampoorna(DSA + Web Dev + Comp. prog. + Interview Prep. &
+              Etc.)</label
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="algo" />
+            <label for="algo">Algo++(DSA & algo in C++)</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="java" />
+            <label for="java">Algo. Java(DSA & algo in Java)</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="class" />
+            <label for="class">Launchpad(DSA using C++)</label>
+          </td>
+          <td>
+            <input type="checkbox" name="comp" />
+            <label for="comp">Competitive Programming</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="web" />
+            <label for="web">Web Development with Node.JS</label>
+          </td>
+          <td>
+            <input type="checkbox" name="app" />
+            <label for="app">Android App Development</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="ml&ds" />
+            <label for="ml&ds">Machine Learing and Data Science</label>
+          </td>
+          <td>
+            <input type="checkbox" name="python" />
+            <label for="python">Web Development using Python-Django</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="intCpp" />
+            <label for="intCpp">Interview Prep. with C++</label>
+          </td>
+          <td>
+            <input type="checkbox" name="intvJava" />
+            <label for="intvJava">Interview Prep. with C++</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="design" />
+            <label for="design">System Design Live</label>
+          </td>
+          <td>
+            <input type="checkbox" name="other" />
+            <label for="other">Others......</label>
+          </td>
+        </tr>
+      </table>
+      <p>
+        Which center you are interested in (Please tick the appropriate one)
+      </p>
+      <!-- name of all radio buttons should be same -->
+      <input type="radio" id="center" name="center" />
+      <label for="center">Pitampura</label>
+
+      <input type="radio" id="center2" name="center" value="Noida" />
+      <label for="center2">Noida</label>
+
+      <p>How do you come to know about us ?</p>
+      <label for="how">Friends</label>
+      <input type="radio" id="how" name="frnd" />
+
+      <label for="how2">Your Own Research</label>
+      <input type="radio" id="how2" name="frnd" />
+
+      <label for="how3">Social Media</label>
+      <input type="radio" id="how3" name="frnd" />
+
+      <label for="how4">Advertisement</label>
+      <input type="radio" id="how4" name="frnd" />
+
+      <p>
+        Are you an ex-VMC student ?
+        <input type="radio" id="yes" name="sameName" />
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="sameName" />
+        <label for="no">No</label>
+      </p>
+      <p>
+        if Yes, VMC Roll No.
+        <input
+          type="number"
+          id="roll"
+          name="saurabh"
+          placeholder="Enter VMC Roll No."
+        />
+        <br />
+        Name of Coding Blocks student who referred, if any
+        <input type="text" id="name" placeholder="Enter name" />
+        <br />
+        <label for="handle">Handled By-</label>
+        <input type="text" id="handle" />
+
+        <label for="Date">Date</label>
+        <input type="date" id="Date" />
+
+        <label for="Place">Place</label>
+        <input type="text" id="Place" />
+        <br />
+        <label for="Refr">Ref. By-</label>
+        <input type="text" id="Refr" />
+      </p>
+
+      <!-- Way to create Buttons -->
+      <!-- <button>Final Submit</button> -->
+      <!-- type="submit" :   -->
+      <input type="submit" value="Final Submit" />
+      <!-- </fieldset> -->
+    </form>
+  </body>
+</html>
